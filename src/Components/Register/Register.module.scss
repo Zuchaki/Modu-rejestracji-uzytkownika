@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 98vw;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 80px 40px -7px, rgba(0, 0, 0, 0.56) 0px 42px 70px 4px;
+    margin: 20px 0 20px 0;
+    padding: 10px 0 20px 0;
+    border-radius: 36px;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin:30px 0 20px 0;
+}
+.box{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    width: 96vw;
+    max-width: 400px;
+    .label{
+        margin-left: 20px;
+    }
+}
+.button, .buttonDisable{
+    background-color: #793aaf;
+    color:white;
+    border-radius: 8px;
+    padding: 8px 45px;
+    border:none;
+    margin:40px 0 30px 0;
+    width: 96vw;
+    max-width: 400px;
+    font-size: 1.1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition-duration: 0.2s;
+}
+.buttonDisable{
+    background-color: #c9c0d1;
+    color:#262626;
+}
+.button:hover{
+    background-color: #d3b4ed;
+    color:#525252;
+    cursor: pointer;
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

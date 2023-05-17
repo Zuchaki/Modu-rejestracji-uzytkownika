@@ -1,0 +1,25 @@
+.container, .containerTRUE{
+    border:1px solid #d3b4ed;
+    background-color: #f9f1fe;
+    margin: 4px 8px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.1s;
+}
+.container:hover{
+    background-color: #e5d6ee;
+}
+.label:hover{
+    cursor: pointer;
+}
+.containerTRUE{
+    border:1px solid #f9f1fe;
+    background-color: #d3b4ed;
+}
+
+.radio{
+    display: none;
+}

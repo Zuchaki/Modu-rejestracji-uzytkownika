@@ -1,0 +1,72 @@
+.box{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+
+    .label{
+        margin:0 0 2px 20px;
+        font-size: 1rem;
+        font-weight: 500;
+
+        .notRequired{
+            font-size: 0.9rem;
+            color: gray;
+        }
+    }
+
+    .regularInput, .phoneInput{
+        max-width: 400px;
+        width: 96vw;
+        padding: 6px 12px;
+        color: #222;
+        border:1px solid #d3b4ed;
+        background-color: #f9f1fe;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .regularInput:focus, .phoneInput:focus{
+        outline: none;
+    }
+
+    .phoneInput{
+        padding-left: 46px;
+    }
+
+    .phonePrefix{
+        position: absolute;
+        left: 13px;
+        bottom: 7px;
+        z-index: 3;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .status{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 13px;
+        bottom: 3px;
+        height: 50%;
+        color: #237804;
+    }
+}
+.error{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 380px;
+    width: 94vw;
+    color: #820014;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 2px 0 0 20px;
+    text-align: left;
+}
