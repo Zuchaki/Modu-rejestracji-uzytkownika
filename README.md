@@ -1,5 +1,8 @@
 # Moduł rejestracji użytkownika
+### Link do projektu:
+https://modul-rejestracji-uzytkownika.web.app
 
+### Krótki opis
 Pozwala na wprowadzenie:
 1. E-maila
 2. Hasła
